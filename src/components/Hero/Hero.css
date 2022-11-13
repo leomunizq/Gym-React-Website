@@ -7,9 +7,50 @@
   padding: 2rem;
   padding-top: 1.5rem;
   flex:3;
+  display: flex;
+  gap: 2rem;
+  flex-direction: column;
 }
 
 .right-h{
-  flex: 2;
+  flex: 1;
+}
 
+.button-ad{
+  margin-top: 4rem;
+  background-color: #363d42;
+  border-radius: 4rem;
+  padding: 20px 13px;
+  width: fit-content;
+  text-transform: uppercase;
+  color: #fff;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.button-ad>span{
+  z-index: 2;
+}
+.button-ad>div{
+  position: absolute;
+  background-color: var(--orange);
+  width: 7.7rem;
+  height: 80%;
+  left: 8px;
+  border-radius: 3rem;
+  z-index: 1;
+
+}
+
+.hero-text{
+  display: flex;
+  flex-direction: column;
+gap: 1.5rem;
+text-transform: uppercase;
+font-size: 4.5rem;
+font-weight: bold;
+color: #fff;
+text-overflow: inherit;
 }
